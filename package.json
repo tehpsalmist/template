@@ -16,7 +16,7 @@
   "scripts": {
     "build": "ngtw b -p && rollup -c",
     "autobuild": "rollup -c -w",
-    "dev": "run-p start:dev autobuild watch-tailwind",
+    "dev": "ngtw b && run-p start:dev autobuild watch-tailwind",
     "start": "sirv public -s",
     "start:dev": "sirv public --dev -s",
     "watch-tailwind": "ngtw w"
