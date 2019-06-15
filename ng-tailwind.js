@@ -1,8 +1,8 @@
 module.exports = {
   // Tailwind Paths
-  configJS: '/Users/tehpsalmist/Svelte/template/tailwind.config.js',
-  sourceCSS: '/Users/tehpsalmist/Svelte/template/tailwind.css',
-  outputCSS: '/Users/tehpsalmist/Svelte/template/public/global.css',
+  configJS: './tailwind.config.js',
+  sourceCSS: './tailwind.css',
+  outputCSS: './public/global.css',
   // Sass
   sass: false,
   // PurgeCSS Settings
