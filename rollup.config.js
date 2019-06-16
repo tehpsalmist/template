@@ -34,5 +34,7 @@ export default {
   ],
   watch: {
     clearScreen: false
-  }
+  },
+  onwarn: warning =>
+    warning.code === 'THIS_IS_UNDEFINED' || console.warn(warning.message)
 }
